@@ -21,7 +21,7 @@ Que cosas necesitas para instalar el software y como verla en el dispositivo loc
 
  -Version Tablet
 
- -Version Movile
+ -Version Mobile
 
 
 ## Despliegue 📦
