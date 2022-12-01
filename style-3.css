@@ -1,0 +1,46 @@
+body{
+    background: rgb(252,186,17);
+    background: linear-gradient(267deg, rgba(252,186,17,1) 0%, rgba(254,182,65,1) 
+    53%, rgba(252,186,17,1) 100%);
+}
+
+.image{
+    margin-left: 10px;
+}
+
+.container{
+    width: 400px;
+    height: 400px;
+    perspective: 600px;
+}
+.cube{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    transform-style: preserve-3d;
+}
+.cube-face{
+    position: relative;
+    width: 400px;
+    height: 200px;
+}
+
+.front{
+    background-color: red;
+    border: 5px #000;
+}
+.back{
+    background-color: yellow;
+}
+.left{
+    background-color: green;
+}
+.right{
+    background-color: blue;
+}
+.top{
+    background-color: purple;
+}
+.bottom{
+    background-color: pink;
+}
