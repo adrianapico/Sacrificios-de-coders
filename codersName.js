@@ -1,11 +1,34 @@
+function insertarNombre(event){
 
-let userName = document.querySelector('#userName');
+  let userName = document.querySelector('#userName').value;
 
-let botonFlecha = document.querySelector('#botonFlecha');
+  let opcion = '<li>' + userName + '</li>';
 
-let listNameCoders = document.querySelector('#listNameCoders');
+  let listName = document.querySelector('#listName');
+
+  listName.innerHTML += opcion;
+  // alert('Se ha insertado el nombre')
+
+}
 
 
-botonFlecha.addEventListener('click', () => {
-  listNameCoders.textContent = userName.value
-});
+
+
+
+// let userName = document.querySelector('#userName');
+
+// let botonFlecha = document.querySelector('#botonFlecha');
+
+// let doneListNameCoders = document.querySelector('#doneListNameCoders');
+
+
+
+// botonFlecha.addEventListener('click', () => {
+//   doneListNameCoders.textContent = userName.value
+
+
+ 
+// });
+
+
+
