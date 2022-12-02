@@ -5,6 +5,7 @@ cube.addEventListener('click',() => {
     cube.style.transition = ''; 
     cube.style.transform = `translateY(200px) rotateX(0deg)
     rotateY(0deg) rotateZ(0deg)`;
+
     setTimeout(() => {
         cube.style.transition = `transform ${time}s`;
         const randomValue = Math.floor((Math.random() * 6) + 1);

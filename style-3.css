@@ -13,7 +13,7 @@ body{
     height: 200px;
     margin: 0 auto;
     position: relative;
-    perspective: 1200px;
+    perspective: 600px;
     top: -90px;
 }
 .cube{
@@ -40,18 +40,22 @@ body{
 .front{
     transform: translateZ(100px);
 }
+
 .back{
     transform: rotateY(180deg) translateZ(100px);
 }
 .left{
     transform: rotateY(-90deg) translateZ(100px);
 }
+
 .right{
     transform: rotateY(90deg) translateZ(100px);
 }
+
 .top{
     transform: rotateX(90deg) translateZ(100px);
 }
+
 .bottom{
     transform: rotateX(-90deg) translateZ(100px);
 }
