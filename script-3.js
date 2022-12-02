@@ -33,7 +33,7 @@ cube.addEventListener('click',() => {
                 break;
             case 6:
                 cube.style.transform = `translateY(200px) 
-                rotateX(3600deg) rotateY(1800deg) rotateZ(3600deg)`;
+                rotateX(3600deg) rotateY(1980deg) rotateZ(3600deg)`;
                 break;
         };
     }, time * 10);
