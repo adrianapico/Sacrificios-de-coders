@@ -1,0 +1,99 @@
+
+  
+  body {
+      background-color: #FCBA11;
+   
+  }
+  .title-pag1{
+    font-size: 23px;
+   text-align: center;
+   
+
+  }
+  .text-pag1{
+   font-size: 20px;
+   text-align: center;
+  }
+
+.Let{
+  text-align: center; 
+}
+.btn-pgn1{
+      background-color: #FCBA11;
+      border-radius: 41% 41% 41% 41%;
+      padding: 14px 28px;
+      font-size: 16px;
+      cursor: pointer
+}
+
+ .img-1{
+  text-align: center;
+  transform: rotate(15deg);
+ height: auto;
+ }
+    .img-2 {
+      text-align: center;
+      transform: rotate(15deg);
+    
+    }
+    
+   
+.img-1png{
+  width: 48%;
+}
+.img-2png {
+  width: 48%;
+}
+
+@media only screen and (max-width: 320px) and (max-device-width:428px){
+
+  /* For mobile phones: */
+  [class*="Homepage"] {
+    width: 100%;
+  }
+ .img-1png {
+   width: 70%;
+ }
+
+ .img-2png {
+   width: 70%;
+ }
+}
+@media only screen and (max-width: 320px) and (max-device-width:480px) {
+
+  /* For mobile phones: */
+  [class*="Homepage"] {
+    width: 100%;
+  }
+
+  .img-1png {
+    width: 70%;
+  }
+
+  .img-2png {
+    width: 70%;
+  }
+}
+@media  (max-width: 481px) and (max-width:767px) {
+
+  [class*="Homepage"] {
+      width: 100%;
+    }
+  .img-1png {
+    width: 70%;
+  }
+ .img-2png{
+  width: 70%;
+ }
+  
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+ .img-1png{
+  width: 70%;
+ }
+ .img-2png{
+  display: none;
+ }
+}
+
+
