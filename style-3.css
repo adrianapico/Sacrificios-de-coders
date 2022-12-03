@@ -4,10 +4,6 @@ body{
     53%, rgba(252,186,17,1) 100%);
 }
 
-.image{
-    margin-left: 10px;
-}
-
 .container{
     width: 200px;
     height: 200px;
@@ -163,9 +159,7 @@ body{
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    .image{
-        margin-left: 10px;
-    }
+    
     
     .container{
         width: 200px;
@@ -235,11 +229,7 @@ body{
     }
 }
 @media (min-width: 481px) and (max-width: 767px) {
-    image{
-        margin-left: 80px;
-        height: 350px;
-        width: 120px;
-    }
+    
     
     .container{
         width: 200px;
@@ -308,19 +298,16 @@ body{
     }
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-    image{
-        margin-left: 80px;
-        height: 350px;
-        width: 120px;
-    }
-    
+    .navbar bg-light{
+        margin-left: 100px;
+    }  
     .container{
-        width: 200px;
-        height: 200px;
+        width: 250px;
+        height: 250px;
         margin: 0 auto;
         position: relative;
         perspective: 600px;
-        top: -90px;
+        top: -80px;
     }
     .cube{
         transform: translateY(200px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
@@ -332,8 +319,8 @@ body{
     }
     .cube-face{
         position: absolute;
-        width: 100%;
-        height: 100%;
+        width: 120%;
+        height: 120%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -344,26 +331,26 @@ body{
         border-radius: 6%;
     }
     .front{
-        transform: translateZ(100px);
+        transform: translateZ(150px);
     }
     
     .back{
-        transform: rotateY(180deg) translateZ(100px);
+        transform: rotateY(180deg) translateZ(150px);
     }
     .left{
-        transform: rotateY(-90deg) translateZ(100px);
+        transform: rotateY(-90deg) translateZ(150px);
     }
     
     .right{
-        transform: rotateY(90deg) translateZ(100px);
+        transform: rotateY(90deg) translateZ(150px);
     }
     
     .top{
-        transform: rotateX(90deg) translateZ(100px);
+        transform: rotateX(90deg) translateZ(150px);
     }
     
     .bottom{
-        transform: rotateX(-90deg) translateZ(100px);
+        transform: rotateX(-90deg) translateZ(150px);
     }
     .inside{
         display: grid;
@@ -371,8 +358,8 @@ body{
         grid-template-rows: repeat(3, 60);
     }
     .dot{
-        height: 50px;
-        width: 50px;
+        height: 70px;
+        width: 70px;
         background-color: #FCBA11;
         border-radius: 50%;
         border: white 2px solid;
