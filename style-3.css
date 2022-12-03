@@ -162,6 +162,29 @@ body{
     grid-column: 1;
 }
 
-.btn-restart{
+#cont-reset{
+    display: flex;
     justify-content: center;
+    align-items: center;
+    display: block;
 }
+.btn-restart{    
+    background: #92c7eb;
+    background-image: url("./Img/restart.webp");
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    border: none;
+    padding: 20px;
+    width: 70px;
+    border-radius: 900px;
+    height: 70px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.btn-restart:hover{
+    width: 100px;
+    height: 100px;
+}
+
+
