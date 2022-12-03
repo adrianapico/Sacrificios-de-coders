@@ -1,5 +1,5 @@
 let btnAbrir=document.querySelector("#btn-abrir");
-let btnCerar=document.querySelector("#btn-cerrar");
+let btnCerar=document.querySelector("#btn-no");
 let modal=document.querySelector("#modal");
 
 btnAbrir.addEventListener("click", ()=> {
