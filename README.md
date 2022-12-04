@@ -17,16 +17,15 @@ Que cosas necesitas para instalar el software y como verla en el dispositivo loc
  bash -Ya colonado el despliege los abres en cualquier navegador asi vez la pagina web finalizada.
 
 ## Instalación 🔧
- -Version Desktop
 
- -Version Tablet
-
- -Version Mobile
+![Como se debe visualizar](https://github.com/adrianapico/Sacrificios-de-coders/blob/4cdd5ef4ea823ed436a7a34ecccc2d124245ff40/Img/responsive.png)
 
 
 ## Despliegue 📦
 El despliege esta apto para ejecutarse
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+https://sacrificios-de-coders.vercel.app/
+
 
 ## Construido con ⚒️ 
 las herramientas que se utilizaron para crear este proyecto son:
