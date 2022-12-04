@@ -16,7 +16,7 @@ Que cosas necesitas para instalar el software y como verla en el dispositivo loc
  Abrir el clon
  bash -Ya colonado el despliege los abres en cualquier navegador asi vez la pagina web finalizada.
 
-## Instalación 🔧
+## vista en distintas pantallas 🔧
 
 ![Como se debe visualizar](https://github.com/adrianapico/Sacrificios-de-coders/blob/4cdd5ef4ea823ed436a7a34ecccc2d124245ff40/Img/responsive.png)
 
