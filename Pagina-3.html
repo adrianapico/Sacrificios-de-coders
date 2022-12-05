@@ -9,17 +9,16 @@
     <title>Sacrificios-de-coders</title>
 </head>
 <body>
-
     <nav class="navbar bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
             <img src="./Img/logo.naranja.png" alt="Logo" width="60" height="50" class="d-inline-block align-text-center">
                 Sacrificio de Coders
             </a>
+            <p>clip en el dado para girar</p>
         </div>
-    </nav>
+    </nav>
 
-    </div>
     <!--Dado-->
     <div class="container">
         <div class="cube">
@@ -69,14 +68,30 @@
                 </div>
             </div>
         </div>
+        <div class="boton">
+            <button>
+                <span>Open</span><i></i>
+            </button>
+        </div>
+        <div>
+            <dialog id="modal">
+                <div>
+                    <h3>los coders pendientes por sacrificarse son:</h3>
+                    <ol>
+                        <li>Alexis</li>
+                        <li>Michell</li>
+                        <li>Paola</li>
+                    </ol>
+                </div>
+                <div>
+                    <h3>¿Quieres continuar?</h3>
+                    <button>Yes</button>
+                    <button id="btn-no">No</button>
+                </div>
+                
+            </dialog>
+        </div>
     </div>
-
-    <div id="cont-reset">
-        <a class="btn-restart" href="./Pagina-4.html" target="_blank">
-        </a>
-    </div>
-    
-    
     <script type="text/javascript" src="/script-3.js"></script>
 </body>
 </html>

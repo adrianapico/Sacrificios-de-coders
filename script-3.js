@@ -39,3 +39,13 @@ cube.addEventListener('click',() => {
         };
     }, time * 10);
 });
+
+// var codersSacrificado ="";
+// for(let j=0 j<listName; j++){
+//     if(userName == j){
+//         codersSacrificado = userName [j];
+//         console.log(codersSacrificado);
+//         swal.fire(codersSacrificado);
+//     }
+// }
+// alert(codersSacrificado);
